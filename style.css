@@ -1,0 +1,148 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+}
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+
+.logo {
+    float: left;
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav {
+    float: right;
+    }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 35px;
+    padding-top: 23px;
+    
+}
+
+nav a {
+    text-decoration: underline;
+    color: seashell;
+
+}
+
+
+
+
+.containermission {
+    height: 700px;
+    width: 1200px;
+    background-image: url(Images/img-mission-background.jpeg);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission{
+    height: 180px;
+    width: 1200px;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.teapics {
+    width: 1200px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.teapic {
+    height: 200px;
+    width: 300px;
+    margin: auto 0px;
+    padding: auto 5px;
+   
+}
+
+.containerteamonth {
+    width: 1200px;
+    display: flex;
+    align-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.containerlocations {
+    background-image: url(Images/img-locations-background.jpeg);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    opacity: 1;
+}
+
+#locationheader {
+    text-align: center;
+}
+
+.locations {
+    background-color: black;
+    text-align: center;
+    line-height: 3;
+    width: 300px;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 15px 40px;
+    
+}
+
+.actuallocation {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 40px;
+    justify-content: space-between;
+    align-content: space-between;
+    
+}
+
+footer {
+    height: 200px;
+    text-align: center;
+}
+
+#copyright {
+    text-align: left;
+    margin-left: 20px;
+}
